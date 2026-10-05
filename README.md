@@ -2,6 +2,9 @@
 
 Homebrew tap and downloads for **abouteverything**, a local-first work journal and AI secretary for engineers (macOS, Apple Silicon).
 
+> **Beta**：v1.0.0 之前都是 Beta，功能和畫面還會持續調整，更新會透過 app 內通知推送。
+> Everything before v1.0.0 is a beta: features and screens will keep changing, and updates arrive in the app.
+
 ## 安裝 / Install
 
 ```sh

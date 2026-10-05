@@ -3,7 +3,7 @@ cask "abouteverything" do
   sha256 "95226d783cd5ffe004d95070b9f63a63968994b8cde554e192e85c64e0bb6bad"
 
   url "https://github.com/needleapdo0610/homebrew-tap/releases/download/v#{version}/abouteverything_#{version}_aarch64.dmg"
-  name "abouteverything"
+  name "abouteverything Beta"
   desc "Local-first work journal and AI secretary for engineers"
   homepage "https://github.com/needleapdo0610/homebrew-tap"
 
