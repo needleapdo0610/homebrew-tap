@@ -1,6 +1,6 @@
 cask "abouteverything" do
-  version "0.2.71"
-  sha256 "79634c049b1a5f297120a9db3e79f28a473a294e3afadded31d9aae3f24a8261"
+  version "0.2.72"
+  sha256 "eee6f790eea57db05b230320f9a435accb00dff2047180b8891d66a0d9dc63ff"
 
   url "https://github.com/needleapdo0610/homebrew-tap/releases/download/v#{version}/abouteverything_#{version}_aarch64.dmg"
   name "abouteverything Beta"
@@ -12,8 +12,8 @@ cask "abouteverything" do
 
   app "abouteverything.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/abouteverything.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/abouteverything.app"], writable_paths: ["abouteverything.app"], writable_base: :appdir
   end
 
   zap trash: [
