@@ -1,6 +1,6 @@
 cask "abouteverything" do
-  version "0.2.77"
-  sha256 "c106bc43fa0827c3e0b7daec2a2a7f442673c26bc43b94ac44babcca1ad74945"
+  version "0.2.78"
+  sha256 "5620342231f79664dfe2ddcf5e1690f13e66a5b7f05428c793f5f1795548ef6b"
 
   url "https://github.com/needleapdo0610/homebrew-tap/releases/download/v#{version}/abouteverything_#{version}_aarch64.dmg"
   name "abouteverything Beta"
